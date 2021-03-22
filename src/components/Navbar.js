@@ -6,6 +6,9 @@ import styled from "styled-components";
 const StyledNav = styled.nav`
     background-color: black;
     border: 1px solid black;
+    .txt{
+        color: white;
+    }
 
 `
 
@@ -34,6 +37,7 @@ export default function Navbar() {
 
     return (
         <StyledNav>
+            <p className="txt">Christina Melchor</p>
             <StyledList>
                 {nav.map(item => {
                     return <NavItem key={item.id} item={item} />
