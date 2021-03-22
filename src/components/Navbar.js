@@ -22,15 +22,10 @@ export default function Navbar() {
     const nav = [
         {
             id: 1,
-            link: "/",
-            name: "Characters",
-        },
-        {
-            id: 3,
             link: "https://github.com/c-melchor",
             name: "GitHub",
         }, {
-            id: 4,
+            id: 2,
             link: "https://www.linkedin.com/in/camelchor/",
             name: "LinkedIn",
 
